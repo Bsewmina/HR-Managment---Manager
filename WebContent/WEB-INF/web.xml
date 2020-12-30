@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+      
+  <servlet>
+  		<servlet-name>AddDept</servlet-name>
+  		<servlet-class>mang.oop.servlet.AddDepartment</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>AddDept</servlet-name>
+  		<url-pattern>/addDept</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>UpdateDept</servlet-name>
+  		<servlet-class>mang.oop.servlet.UpdateDepartment</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>UpdateDept</servlet-name>
+  		<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>GetDept</servlet-name>
+  		<servlet-class>mang.oop.servlet.GetDepartment</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>GetDept</servlet-name>
+  		<url-pattern>/getDept</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>GetAllDept</servlet-name>
+  		<servlet-class>mang.oop.servlet.GetAllDepartmentList</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>GetAllDept</servlet-name>
+  		<url-pattern>/getAllDept</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>DeleteDept</servlet-name>
+  		<servlet-class>mang.oop.servlet.DeleteDepartment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>DeleteDept</servlet-name>
+  		<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>AdminLogin</servlet-name>
+  		<servlet-class>mang.oop.servlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>AdminLogin</servlet-name>
+  		<url-pattern>/adlogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>InsertNotice</servlet-name>
+  		<servlet-class>mang.oop.servlet.AddNotice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>InsertNotice</servlet-name>
+  		<url-pattern>/addNotice</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>UpdateNotice</servlet-name>
+  		<servlet-class>mang.oop.servlet.UpdateNotice</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>UpdateNotice</servlet-name>
+  		<url-pattern>/updateNotice</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>DisplayNotice</servlet-name>
+  		<servlet-class>mang.oop.servlet.GetNotice</servlet-class>
+  </servlet>       
+  <servlet-mapping>
+  		<servlet-name>DisplayNotice</servlet-name>
+  		<url-pattern>/viewNotice</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>
