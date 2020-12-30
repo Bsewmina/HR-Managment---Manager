@@ -7,6 +7,7 @@
 <title>Insert title here</title>
  <link rel="stylesheet" href="assests/css/bootstrap.css">
     <style>
+    
         #mainDiv {
             position: absolute;
             width: 90%;
@@ -68,7 +69,11 @@
 	
     </style>
 </head>
+
+
 <body>
+
+
 <div class="name_bar"> 
 	 
 	<!--Adding the profile photo-->
